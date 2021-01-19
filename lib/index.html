@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>UI-Project</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body class="main">
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="javascript:void(0);" onclick="displayImages(this);">Burger</a>
+            <a href="javascript:void(0);" onclick="displayImages(this);">Pizza</a>
+            <a href="javascript:void(0);" onclick="displayImages(this);">Biryani</a>
+            <a href="javascript:void(0);" onclick="displayImages(this);">Idly</a>
+        </div>
+         
+        <button class="openbtn" onclick="openNav()">☰ Food Images </button> <br>
+        <div class="center">
+            <div class="heading">Food Images Selector</div>
+            <div class="para">
+                Click on the menu options to pick food images that you could use on your web site or restaurant menu
+            </div>
+            <img src="" class="randomFoodImage"> 
+        </div> 
+        <script src="script.js" ></script>
+    </body>
+</html>
